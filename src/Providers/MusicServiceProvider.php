@@ -11,6 +11,8 @@ class MusicServiceProvider extends ServiceProvider
   {
 
     parent::boot();
+
+    $this->loadViewsFrom(__DIR__ . '/../resources/views', 'music');
   }
 
   public function register()

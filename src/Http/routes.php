@@ -1,4 +1,2 @@
 <?php
-Route::get('lastfm/recent', function () {
-  dd((new Jiko\Lastfm\Lastfm)->recent_tracks());
-});
+Route::get('music/recent', 'Jiko\Music\Http\Controllers\MusicPageController@index');
