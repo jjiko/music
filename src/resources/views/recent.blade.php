@@ -63,7 +63,7 @@
                             @if(property_exists($sTrack, "external_urls"))
                                 <a href="{{ $sTrack->external_urls->spotify }}" target="_blank"><img width="24"
                                                                                                      height="24"
-                                                                                                     src="https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"></a>
+                                                                                                     src="https://cdn.joejiko.com/img/upload/32/326dfa6c84225dfca443693e985fdaab.png"></a>
                         @endif
                       <?php } catch (\Exception $e) {
                       }

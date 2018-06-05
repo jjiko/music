@@ -6,7 +6,7 @@ class Lastfm
 {
   use CacheableApiTrait;
 
-  protected $endpoint = 'http://ws.audioscrobbler.com/2.0/';
+  protected $endpoint = 'https://ws.audioscrobbler.com/2.0/';
 
   public function get($key='recent', $opt=[])
   {
